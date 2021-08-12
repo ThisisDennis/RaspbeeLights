@@ -1,6 +1,6 @@
 # RaspbeeLights
 ## Descrition
-This is a small minimalistic helper to control your zigbee devices via deConz Rest-API.
+This is a minimalistic helper to control your zigbee devices via deConz Rest-API.
 It was build to control my Lights via Rhasspy, the work isn't done yet.
 This repository is a working example for the integration of the helper to rhasspy via "rhasspy-hermes-app"
 
