@@ -8,7 +8,12 @@ You can use it without "Rhasspy-hermes-app" (https://github.com/rhasspy/rhasspy-
 
 ## Note
 But i decided to publish it so that other people can benefit from the work done so far. Even if I don't find the time to continue working on it.
-At the moment its only German, maybe some day i'll make it changeable.
+At the moment:
+
+- It's only German, maybe some day i'll make it changeable.
+
+- It only changes lightgroups to turn on, off and dimm. But adding more functions is quite easy.
+
 ## Requirements
 python 3
 
