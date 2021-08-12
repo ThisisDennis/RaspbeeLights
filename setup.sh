@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#pip3 install python-vlc
-#pip3 install -r requirements.txt
-
+pip3 install -r requirements.txt
 
 # Absolute path to this script, e.g. /home/user/bin/foo.sh
 SCRIPT=$(readlink -f "$0")

@@ -4,7 +4,9 @@ import os
 
 class Light(object):
     ligthsObject = None
-
+    '''
+    Parse intent and execute the right function
+    '''
     def __init__(self, config = "/home/pi/skills-server/skills/raspeeLight/config.ini"): 
         self.ligthsObject = lights(config)
 

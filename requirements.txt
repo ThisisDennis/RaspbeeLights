@@ -1,0 +1,4 @@
+# Bindings for the hermes protocol 
+rhasspy-hermes-app
+requests
+configparser

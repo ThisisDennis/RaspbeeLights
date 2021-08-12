@@ -1,4 +1,3 @@
-#import lib.RaspbeeLights as lights
 import lib.Rhasspy_Hermes_App_Parser as lights
 from rhasspyhermes.nlu import NluIntent
 from rhasspyhermes_app import EndSession, HermesApp
@@ -37,5 +36,5 @@ async def dimmGroup(intent: NluIntent):
     return EndSession(answer)
 
 if __name__ == "__main__":
-    conbee = lights.Light()
+    conbee = lights.Light("yourConfigPath")
     app.run()
