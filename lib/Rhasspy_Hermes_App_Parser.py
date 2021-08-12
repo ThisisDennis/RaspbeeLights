@@ -45,3 +45,5 @@ class Light(object):
         group   = self.getGroup(intent)
         percent = self.getPercent(intent)
         return self.ligthsObject.dimmGroup(group, percent)
+    
+    
