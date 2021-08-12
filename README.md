@@ -1,25 +1,25 @@
-## RaspbeeLights
-# Descrition
+# RaspbeeLights
+## Descrition
 This is a small minimalistic helper to control your zigbee devices via deConz Rest-API.
 It was build to control my Lights via Rhasspy, the work isn't done yet.
 This repository is a working example for the integration of the helper to rhasspy via "rhasspy-hermes-app"
 
 You can use it without "Rhasspy-hermes-app" (https://github.com/rhasspy/rhasspy-hermes-app), you just need to build your own "intent-parser".
 
-# Note
+## Note
 But i decided to publish it so that other people can benefit from the work done so far. Even if I don't find the time to continue working on it.
 
-# Requirements
+## Requirements
 python 3
 
-## Setup
-# Get an API-Key
+# Setup
+## Get an API-Key
 I recommend to use https://www.postman.com/ or some alternative.. 
 Go to your Phoscon-UI, under Setting/Gateway/Advanced there is a Button "Authenticate App", click it.
 Now you have a few seconds to send {"devicetype": "your Application name"} via post to your phoscon-hostname e.g. 192.168.194:8080/api/
 A better decription you can find here: https://dresden-elektronik.github.io/deconz-rest-doc/getting_started/
 
-# Set up the helper
+## Set up the helper
 I will descripe the way this respository Example works.
 In the file action-lights.py you will find a line "action-light conbee = lights.Light("yourConfigPath")" in our main-function. Just paste your config-path.
 Fill your config-file like the config-example.
@@ -27,7 +27,7 @@ If you don't wanna have a service running the script in the background you might
 If you wanna, just run setup.sh. There are also logs.sh and reload.sh, these are just small simplifiers to show the logs or reload the service, if you change some code...
 I hope there is nothing left.
 
-## Usage
+# Usage
 Structure:
 action-light.py #handels mqtt-inputs and calls the parser
 Rhasspy-hermes-app-parser.py #interprets the intents in the structure of rhasspy-hermes-app and passes it to the helper
