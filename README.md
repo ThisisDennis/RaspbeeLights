@@ -16,17 +16,17 @@ python 3
 ## Get an API-Key
 I recommend to use https://www.postman.com/ or some alternative.. 
 Go to your Phoscon-UI, under Setting/Gateway/Advanced there is a Button "Authenticate App", click it.
-Now you have a few seconds to send {"devicetype": "your Application name"} via post to your phoscon-hostname e.g. 192.168.194:8080/api/
+Now you have a few seconds to send `{"devicetype": "your Application name"}` via post to your phoscon-hostname e.g. `192.168.194:8080/api/`
 A better decription you can find here: https://dresden-elektronik.github.io/deconz-rest-doc/getting_started/
 
 ## Set up the helper
 I will descripe the way this respository Example works.
-In the file action-lights.py you will find a line "action-light conbee = lights.Light("yourConfigPath")" in our main-function. Just paste your config-path.
+In the file action-lights.py you will find a line `action-light conbee = lights.Light("yourConfigPath")` in our main-function. Just paste your config-path.
 Fill your config-file like the config-example.
 
-If you don't wanna have a service running the script in the background you might need to install some external libs-> in your path: pip3 install -r requirements.txt
+If you don't wanna have a service running the script in the background you might need to install some external libs-> in your path: `pip3 install -r requirements.txt`
 
-If you wanna, just run sudo sh setup.sh. There are also logs.sh and reload.sh, these are just small simplifiers to show the logs or reload the service, if you change some code...
+If you wanna, just run `sudo sh setup.sh`. There are also `logs`.sh and `reload.sh`, these are just small simplifiers to show the logs or reload the service, if you change some code...
 I hope there is nothing left.
 
 # Usage
