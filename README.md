@@ -48,3 +48,5 @@ At this point the Script can only turn on, turn off and dimm groups.
 There is a lot to do, but it's not difficult, you can easily expand the functionality. In most cases you can copy a function in RhasspyLights.py and change the payload.
 
 Just take a look at the documentation: https://dresden-elektronik.github.io/deconz-rest-doc/getting_started/#get-a-list-of-all-lights
+
+P.s. The satelite site id here is also used as light group. If i turn out "all" lights, it will turn out all lights in the group with the same name as the site-id.
